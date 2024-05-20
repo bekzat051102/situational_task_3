@@ -1,0 +1,196 @@
+/* Стили для улучшенного дизайна */
+
+/* Сброс стандартных стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Стили для приветствующего параграфа */
+#welcome {
+    background-color: #ffd700;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Основные стили */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: #333;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Добавим анимацию для разделов */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Анимация при фокусе на раздел (для удобства использования на сенсорных устройствах) */
+section:focus {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Добавим стили для маленьких устройств (ширина экрана до 768px) */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em; /* Уменьшаем размер заголовка */
+    }
+
+    nav ul li {
+        display: block; /* Ссылки навигации становятся блочными */
+        margin: 10px 0; /* Добавляем отступ между ссылками */
+    }
+
+    nav ul li a {
+        font-size: 1em; /* Уменьшаем размер текста ссылок */
+    }
+
+    section {
+        padding: 15px; /* Уменьшаем внутренний отступ разделов */
+    }
+
+    section h2 {
+        font-size: 1.5em; /* Уменьшаем размер заголовков разделов */
+    }
+
+    section p {
+        font-size: 1em; /* Уменьшаем размер текста */
+    }
+
+    section ul li {
+        font-size: 0.9em; /* Уменьшаем размер текста элементов списка */
+    }
+
+    form {
+        padding: 15px; /* Уменьшаем внутренний отступ формы */
+    }
+
+    input, button {
+        width: 100%; /* Растягиваем поля ввода на всю ширину */
+    }
+
+    footer {
+        padding: 15px 0; /* Уменьшаем внутренний отступ подвала */
+    }
+}
