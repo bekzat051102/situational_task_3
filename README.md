@@ -1,5 +1,5 @@
 # situational_task_3
-# https://bekzobek.github.io/situational_task_3/
+# https://bekzat051102.github.io/situational_task_3/
 # [Video link](https://youtu.be/t_n29fiXzbw)
 
 ![Снимок экрана 2024-05-20 113751](https://github.com/bekzobek/situational_task_3/assets/153498060/4085e4e1-beae-48f8-83da-3b662e679863)
